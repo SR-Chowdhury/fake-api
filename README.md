@@ -14,4 +14,10 @@ _then_
 	sudo npm i -g json-server
 _**[N.B. If your are using Ubuntu than you should add sudo before npm i -g json-server]**_
 
+**Then isntall Faker.js**
+_run_
+
+	npm i -D faker
+
+
 
