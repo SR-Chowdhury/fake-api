@@ -83,4 +83,4 @@ _Then run in terminal-_
 	
 _Here we go, now you can see in terminal that you have three url, click ``ctrl + click`` That's it. you got your local fake API data_
 
-# EXPL:first_quarter_moon:RE SUPER:star2: W:globe_with_meridians:RLD 
+# EXPL:first_quarter_moon:RE SUPER:star2: W:last_quarter_moon:RLD 
