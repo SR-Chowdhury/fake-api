@@ -82,3 +82,5 @@ _Then run in terminal-_
 	json-server fakeAPI.js
 	
 _Here we go, now you can see in terminal that you have three url, click ``ctrl + click`` That's it. you got your local fake API data_
+
+# EXPLORE SUPER:star2: W:globe_with_meridians:RLD 
