@@ -1,3 +1,4 @@
+# EXPL:first_quarter_moon:RE SUPER:star2: W:last_quarter_moon:RLD 
 # Create Fake API using JSON server + faker.js
 
 **First use this webpack-boilerpalte do the follwoing things**
