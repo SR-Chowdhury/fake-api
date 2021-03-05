@@ -19,7 +19,7 @@ _run_
 
 	npm i -D faker
 
-**-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_**
+**---------------------------------------------------------------------------------------------------------------------------**
 
 **create a fakeAPI.json file**
 
@@ -43,7 +43,37 @@ _run_
 	    }
 	}
 	
-_Then run interminal-_
+_Then run in terminal-_
 
 	json-server --watch fakeAPI.json
 _Here we go, now you can see in terminal that you have a url where click ctrl + click. That's it. you got your local fake API data_
+
+**---------------------------------------------------------------------------------------------------------------------------**
+
+**But you need more API data then what?**
+
+**just create a fakeAPI.js file**
+
+	const faker = require('faker');
+
+	const data = {
+	    user: [],
+	    address: []
+	}
+
+	for (let i = 0; i<50; i++) {
+	    data.user.push({
+		first_name: faker.name.firstName(),
+		last_name: faker.name.lastName()
+	    });
+	}
+	for (let i = 0; i<50; i++) {
+	    data.address.push({
+		zipCode: faker.address.zipCode(),
+		city: faker.address.city()
+	    });
+	}
+
+	module.exports = () => data;
+	
+``hello``
