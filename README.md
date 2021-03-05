@@ -19,5 +19,31 @@ _run_
 
 	npm i -D faker
 
+**-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_**
 
+**create a fakeAPI.json file**
 
+	{
+	    "posts": [
+	      {
+		"id": 1,
+		"title": "json-server",
+		"author": "typicode"
+	      }
+	    ],
+	    "comments": [
+	      {
+		"id": 1,
+		"body": "some comment",
+		"postId": 1
+	      }
+	    ],
+	    "profile": {
+	      "name": "typicode"
+	    }
+	}
+	
+_Then run interminal-_
+
+	json-server --watch fakeAPI.json
+_Here we go, now you can see in terminal that you have a url where click ctrl + click. That's it. you got your local fake API data_
