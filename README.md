@@ -46,7 +46,8 @@ _run_
 _Then run in terminal-_
 
 	json-server --watch fakeAPI.json
-_Here we go, now you can see in terminal that you have a url where click ctrl + click. That's it. you got your local fake API data_
+	
+_Here we go, now you can see in terminal that you have a url, click ``ctrl + click`` That's it. you got your local fake API data_
 
 **---------------------------------------------------------------------------------------------------------------------------**
 
@@ -75,5 +76,9 @@ _Here we go, now you can see in terminal that you have a url where click ctrl + 
 	}
 
 	module.exports = () => data;
+		
+_Then run in terminal-_
+
+	json-server fakeAPI.js
 	
-``hello``
+_Here we go, now you can see in terminal that you have three url, click ``ctrl + click`` That's it. you got your local fake API data_
